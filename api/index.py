@@ -31,7 +31,7 @@ class EndpointResult:
 ENDPOINTS = [
     {"id": "xml_test",     "name": "XML test validation",
      "url": "https://www.anaf.ro/uploadxmi/"},
-    {"id": "xml_test_pdf", "name": "XML to PDF login",
+    {"id": "xml_test_pdf", "name": "XML to PDF test",
      "url": "https://www.anaf.ro/uploadxml/"},
     {"id": "oauth2_token",   "name": "SPV login",
      "url": "https://pfinternet.anaf.ro/my.policy"},
