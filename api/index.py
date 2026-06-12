@@ -29,14 +29,14 @@ class EndpointResult:
 
 
 ENDPOINTS = [
-    {"id": "xml_validation", "name": "XML Validation",
-     "url": "https://webservicesp.anaf.ro/prod/FCTEL/rest/validare/"},
-    {"id": "oauth2_token",   "name": "OAuth2 Token",
-     "url": "https://logincert.anaf.ro/anaf-oauth2/v1/token"},
-    {"id": "efactura_api",   "name": "e-Factura API",
-     "url": "https://api.anaf.ro/prod/FCTEL/rest/"},
-    {"id": "stare_d112",     "name": "Stare D112",
-     "url": "https://webservicesp.anaf.ro/prod/StareD112/"},
+    {"id": "xml_test",     "name": "XML test validation",
+     "url": "https://www.anaf.ro/uploadxmi/"},
+    {"id": "xml_test_pdf", "name": "XML to PDF login",
+     "url": "https://www.anaf.ro/uploadxml/"},
+    {"id": "oauth2_token",   "name": "SPV login",
+     "url": "https://pfinternet.anaf.ro/my.policy"},
+    {"id": "efactura_login", "name": "User registration ",
+     "url": "https://www.anaf.ro/anaf/internet/ANAF/servicii_online/inregistrare_utilizatori"},
 ]
 
 
