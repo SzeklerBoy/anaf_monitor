@@ -244,7 +244,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
   <header>
     <h1>🇷🇴 ANAF Status Monitor</h1>
-    <p>Real-time availability of ANAF developer APIs</p>
+    <p>ANAF's down? Pathetic... Enable notifications, and I'll let you know when it's working again.</p> 
     <button id="notif-btn" class="hidden" aria-label="Enable push notifications">
       🔔 Enable Notifications
     </button>
